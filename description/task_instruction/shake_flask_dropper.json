@@ -1,0 +1,38 @@
+{
+  "full_description": "Grab the flask and dropper, then loop: drop 3 times and then shake. Continue until the flask changes color.",
+  "preference": "Clear task progression with specific counts and termination condition.",
+  "seen": [
+    "Grab the flask and dropper, drop 3 times, shake, repeat until the flask changes color.",
+    "Pick up the flask and dropper, drop 3 times then shake, repeat until color change.",
+    "Hold the flask and dropper, drop 3 times and shake, loop until the flask changes.",
+    "Take the flask and dropper, drop 3 times then shake, continue until color changes.",
+    "Grab flask and dropper, perform 3 drops then shake, repeat until flask color changes.",
+    "Pick up the flask and dropper, drop 3 times, shake, repeat until color change.",
+    "Hold the flask and dropper, drop three times and shake, loop until color changes.",
+    "Grab the flask and dropper, drop 3 times then shake, repeat until flask changes color.",
+    "Take the flask and dropper, drop three times and shake, repeat until color changes.",
+    "Pick up flask and dropper, do 3 drops then shake, repeat until the flask changes.",
+    "Grab the flask and dropper, drop 3 times and shake, continue until color change.",
+    "Hold flask and dropper, drop 3 times then shake, repeat until the flask changes.",
+    "Take the flask and dropper, perform 3 drops and shake, repeat until flask changes.",
+    "Pick up the flask and dropper, drop 3 times, shake, repeat until color changes.",
+    "Grab flask and dropper, drop 3 times then shake, loop until flask color changes.",
+    "Hold the flask and dropper, drop 3 times and shake, repeat until flask changes.",
+    "Grab the flask and dropper, perform 3 drops then shake, repeat until color change.",
+    "Take flask and dropper, drop 3 times and shake, continue until the flask changes.",
+    "Pick up the flask and dropper, drop 3 times then shake, repeat until color change.",
+    "Grab flask and dropper, drop 3 times, shake, repeat until the flask changes color."
+  ],
+  "unseen": [
+    "Grab the flask and dropper, drop 3 times and shake, repeat until the flask changes.",
+    "Pick up flask and dropper, drop 3 times then shake, repeat until color change.",
+    "Hold the flask and dropper, do 3 drops and shake, repeat until the flask changes.",
+    "Take the flask and dropper, drop 3 times and shake, continue until flask color changes.",
+    "Grab flask and dropper, perform 3 drops then shake, repeat until the flask changes.",
+    "Pick up the flask and dropper, drop 3 times then shake, loop until color change.",
+    "Hold flask and dropper, drop 3 times and shake, repeat until the flask changes color.",
+    "Grab the flask and dropper, drop 3 times then shake, continue until flask changes.",
+    "Take flask and dropper, drop 3 times and shake, repeat until the flask color changes.",
+    "Pick up the flask and dropper, drop 3 times then shake, repeat until color change."
+  ]
+}

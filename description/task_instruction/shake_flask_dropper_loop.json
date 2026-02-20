@@ -1,0 +1,28 @@
+{
+  "full_description": "Pick up the flask and the dropper. Make exactly three drops once, then shake the flask and repeat the shake.",
+  "preference": "Clear, step-by-step flow with explicit counts and a repeat cue that applies only to the shaking step.",
+  "seen": [
+    "Pick up the flask and the dropper, make exactly three drops, then shake the flask and repeat the shake.",
+    "Grab the flask and dropper, make three precise drops, then shake the flask [num] times.",
+    "Hold the flask and dropper, do three drops once, then shake the flask [num] times.",
+    "Take the flask and the dropper, perform three drops, then shake the flask [num] times.",
+    "Grab the flask and dropper, make exactly three drops, then shake the flask [num] times.",
+    "Pick up the flask and dropper, do three drops, then shake the flask [num] times.",
+    "Hold the flask and the dropper, count out three drops, then shake the flask [num] times.",
+    "Take the flask and dropper, complete three drops, then shake the flask [num] times.",
+    "Grab the flask and dropper, drop three times, then shake the flask [num] times.",
+    "Pick up the flask and dropper, drop three times, then continue by shaking the flask on repeat."
+  ],
+  "unseen": [
+    "Grab the flask and the dropper, make exactly three drops once, then shake the flask and repeat the shake.",
+    "Take the flask with the dropper, do three drops once, then shake the flask and keep repeating that shake.",
+    "Hold the flask and the dropper, complete three drops once, then shake the flask and loop the shaking step.",
+    "Pick up the flask and the dropper, count out three drops once, then shake the flask and repeat only the shake.",
+    "Please grab the flask and the dropper, make three drops once, then shake the flask and continue repeating the shake.",
+    "Start by holding the flask and the dropper, perform exactly three drops once, then shake the flask and repeat the shake.",
+    "With the flask and dropper in hand, do three drops once, then shake the flask and keep repeating the shake.",
+    "Take the flask and dropper, deliver three drops once, then shake the flask and repeat that shaking action.",
+    "Secure the flask and the dropper, make three drops once, then shake the flask and repeat the shake step.",
+    "Pick up the flask and dropper, execute exactly three drops once, then shake the flask and continue to repeat the shake."
+  ]
+}

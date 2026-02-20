@@ -1,0 +1,14 @@
+# Basic experiment configuration (keep unchanged)
+policy_name: null
+task_name: null
+exp_name: null
+task_config: null
+ckpt_setting: null
+seed: null
+instruction_type: unseen
+
+# Add Parameters You Need
+config_name: binary_robot_dp3_obs6_mlan_allpadap_posi
+checkpoint_num: 1500
+dp3_task: binary_demo_task_allpadap
+expert_data_num: null

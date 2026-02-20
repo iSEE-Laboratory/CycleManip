@@ -1,0 +1,39 @@
+{
+  "full_description": "use the knife to cut the carrot into multiple pieces",
+  "schema": "{A} notifies the knife",
+  "preference": "num of words should not exceed 10",
+  "seen": [
+    "Cut the carrot with {A} for [num] times",
+    "Slice the carrot with {A} into [num] pieces",
+    "Cut carrot with {A} [num] times",
+    "Slice the carrot into [num] pieces with {A}",
+    "Cut carrot with {A}, repeat [num] times",
+    "Cut carrot with {A} for [num] slices",
+    "Cut carrot with {A} into [num] sections",
+    "Slice carrot with {A}, [num] repetitions",
+    "Cut carrot with {A} [num] times",
+    "Chop carrot with {A} into [num] pieces",
+    "Slice carrot with {A} into [num] pieces",
+    "Cut carrot with {A} for [num] vertical motions",
+    "Cut carrot with {A} for [num] times",
+    "Perform [num] slicing actions with {A} on carrot",
+    "Cut carrot [num] times with {A}",
+    "Slice carrot with {A} for [num] downward cuts",
+    "Cut carrot with {A}, repeat [num] times",
+    "Chop carrot with {A} for [num] cuts",
+    "Slice carrot with {A} into [num] pieces",
+    "Cut carrot with {A} for [num] controlled motions"
+  ],
+  "unseen": [
+    "Cut the carrot with {A} [num] times",
+    "Slice the carrot with {A} into [num] pieces",
+    "Slice carrot into [num] pieces with {A}",
+    "Perform [num] cuts on the carrot with {A}",
+    "Cut the carrot with {A} for [num] slices",
+    "Chop the carrot with {A} into [num] parts",
+    "Slice the carrot with {A} for [num] actions",
+    "Cut carrot with {A} [num] times",
+    "Chop carrot with {A} for [num] cuts",
+    "Slice carrot with {A} for [num] vertical cuts"
+  ]
+}

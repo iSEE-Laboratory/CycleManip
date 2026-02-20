@@ -1,0 +1,39 @@
+{
+  "full_description": "use both arms to chop with two knives on the board in alternating motion",
+  "schema": "{A} and {B} notify the two knives, {a} and {b} notify the arms to operate the knives, [num] is the number of times to chop",
+  "preference": "num of words should not exceed 10",
+  "seen": [
+    "Chop with {A} and {B} using {a} and {b} for [num] times",
+    "Use both arms to chop with two knives [num] times",
+    "Alternate chopping with {A} and {B} for [num] times",
+    "Operate {A} with {a} and {B} with {b} to chop [num] times",
+    "Chop alternately with two knives for [num] times",
+    "Use {a} and {b} to chop with knives [num] times",
+    "Perform alternating chop motion for [num] times",
+    "Chop with knives in alternating rhythm [num] times",
+    "Control {A} and {B} with both arms to chop [num] times",
+    "Execute double knife chopping pattern for [num] times",
+    "Chop using both knives simultaneously [num] times",
+    "Alternate between {A} and {B} chopping for [num] times",
+    "Use {a} for one knife and {b} for other to chop [num] times",
+    "Perform coordinated chopping motion for [num] times",
+    "Chop with alternating arm movements [num] times",
+    "Operate two knives in tandem to chop for [num] times",
+    "Use both hands for chopping action [num] times",
+    "Coordinate {a} and {b} for chopping [num] times",
+    "Chop with interleaved knife motions for [num] times",
+    "Execute dual knife chopping sequence [num] times"
+  ],
+  "unseen": [
+    "Chop with both knives on the board for [num] times",
+    "Use {a} and {b} to chop alternately [num] times",
+    "Operate {A} and {B} in alternating pattern for [num] times",
+    "Perform double knife chopping motion [num] times",
+    "Chop using alternating arm technique for [num] times",
+    "Coordinate two knives for chopping [num] times",
+    "Use both arms for knife chopping for [num] times",
+    "Execute alternating chop with knives [num] times",
+    "Chop with interleaved knife actions for [num] times",
+    "Perform dual arm chopping sequence [num] times"
+  ]
+}

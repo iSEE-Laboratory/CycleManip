@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/env python3
 """Apply CycleManip overlay patch onto a RoboTwin checkout.
 

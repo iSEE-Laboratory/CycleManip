@@ -1,0 +1,34 @@
+name: ${task_name}-${setting}-${expert_data_num}-${exp_tag}
+
+shape_meta: &shape_meta
+  # acceptable types: rgb, low_dim
+  obs:
+    point_cloud:
+      shape: [2048, 6]
+      type: point_cloud
+    agent_pos:
+      shape: [14]
+      type: low_dim
+  action:
+    shape: [14]
+
+dataset:
+  _target_: diffusion_policy_3d.dataset.binary_robot_dataset.BinaryRobotDataset
+  zarr_path: ../../../data/${task_name}-${setting}-${expert_data_num}.zarr
+  action_horizon: ${action_horizon}
+  obs_horizon: ${obs_horizon}
+  pad_before: 1
+  pad_after: 7
+  seed: 42
+  val_ratio: 0.02
+  max_train_episodes: null
+  use_language: True
+  sampler_strategy: binary
+  agent_pose_type: endpose
+
+env_runner:
+  _target_: diffusion_policy_3d.env_runner.robot_runner.RobotRunner
+  max_steps: 300
+  n_obs_steps: ${obs_horizon}
+  n_action_steps: ${n_action_steps}
+  task_name: robot

@@ -1,0 +1,34 @@
+{
+  "full_description": "use both arms to grab the roller on the table and roll it back and forth",
+  "schema": "{A} notifies the roller. 'arm' use literal here. [num] notifies the number of repetitions.",
+  "preference": "num of words should not exceed 15.",
+  "seen": [
+    "Grab {A} and roll back and forth [num] times.",
+    "Hold {A} and roll it forward-backward [num] times.",
+    "Grip {A} and move it back-forth [num] times.",
+    "Grasp {A} and roll repeatedly for [num] times.",
+    "Take {A} and roll it [num] times.",
+    "Hold {A} and perform rolling motion [num] times.",
+    "Grab {A} and roll forward-backward, repeat [num] times.",
+    "Use both arms to grab {A}, roll [num] times.",
+    "Grip {A} firmly and roll back-forth [num] times.",
+    "Grasp {A} and make rolling motion for [num] times.",
+    "Hold {A} with arms, roll it [num] times.",
+    "Grab {A} and roll in place [num] times.",
+    "Take {A} and move back-forth [num] times.",
+    "Secure {A} and roll forward-backward [num] times.",
+    "Hold {A} and roll repeatedly, do [num] times."
+  ],
+  "unseen": [
+    "Grab {A} and roll back and forth for [num] times.",
+    "Use both arms to hold {A}, roll [num] times.",
+    "Grip {A} and roll it forward-backward [num] times.",
+    "Grasp {A} and perform rolling action for [num] times.",
+    "Hold {A} with both arms, roll [num] times.",
+    "Grab {A} on table, roll back-forth [num] times.",
+    "Take {A} and roll it repeatedly [num] times.",
+    "Secure {A} and make rolling motion [num] times.",
+    "Hold {A} firmly and roll for [num] times.",
+    "Grab {A} and roll in repetitions of [num]."
+  ]
+}

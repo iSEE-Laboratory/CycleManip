@@ -1,0 +1,9 @@
+- task_name=test
+- training.debug=False
+- training.seed=0
+- training.device=cuda:0
+- exp_name=test-binary_dp3_obs6-train
+- logging.mode=online
+- checkpoint.save_ckpt=True
+- expert_data_num=5
+- setting=test

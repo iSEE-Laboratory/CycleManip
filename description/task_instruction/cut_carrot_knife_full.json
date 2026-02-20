@@ -1,0 +1,39 @@
+{
+  "full_description": "use the knife to cut the carrot into multiple pieces",
+  "schema": "{A} notifies the knife, {a} notifies the arm to operate the knife",
+  "preference": "num of words should not exceed 10",
+  "seen": [
+    "Cut the carrot with {A} using {a} for [num] times",
+    "Use {a} with {A} to slice the carrot into [num] pieces",
+    "Operate {A} with {a} to cut carrot [num] times",
+    "Use {a} to slice the carrot with {A} into [num] pieces",
+    "Cut carrot using {A} held by {a}, repeat [num] times",
+    "Use {a} to cut carrot with {A} for [num] slices",
+    "Use {a} to cut carrot with {A} into [num] sections",
+    "Slice carrot with {A} using {a}, [num] repetitions",
+    "Cut carrot with {A} using {a} [num] times",
+    "Use {a} to chop carrot with {A} into [num] pieces",
+    "Use {a} to slice carrot with {A} into [num] pieces",
+    "Use {a} to cut carrot with {A} for [num] vertical motions",
+    "Use {a} to cut carrot with {A} for [num] times",
+    "Use {a} to perform [num] slicing actions with {A} on carrot",
+    "Use {a} to cut carrot with [num] {A} movements",
+    "Use {a} to slice carrot with {A} for [num] downward cuts",
+    "Use {a} to cut carrot with {A}, repeat [num] times",
+    "Use {a} to chop carrot with {A} for [num] cuts",
+    "Use {a} to slice carrot with {A} into [num] pieces",
+    "Use {a} to cut carrot with {A} for [num] controlled motions"
+  ],
+  "unseen": [
+    "Cut the carrot with {A} using {a} [num] times",
+    "Slice the carrot with {A} using {a} into [num] pieces",
+    "Slice carrot into [num] pieces with {A} using {a}",
+    "Perform [num] cuts on the carrot with {A} using {a}",
+    "Cut the carrot with {A} using {a} for [num] slices",
+    "Chop the carrot with {A} using {a} into [num] parts",
+    "Slice the carrot with {A} using {a} for [num] actions",
+    "Cut carrot with {A} using {a} [num] times",
+    "Chop carrot with {A} using {a} for [num] cuts",
+    "Slice carrot with {A} using {a} for [num] vertical cuts"
+  ]
+}

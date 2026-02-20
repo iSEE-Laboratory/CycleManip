@@ -1,0 +1,39 @@
+{
+  "full_description": "use two knives to chop on the board in alternating motion",
+  "schema": "[num] is the number of times to chop",
+  "preference": "num of words should not exceed 10",
+  "seen": [
+    "Chop with two knives for [num] times",
+    "Chop with two knives [num] times",
+    "Alternate chopping with two knives for [num] times",
+    "Chop with knives for [num] times",
+    "Chop alternately with two knives for [num] times",
+    "Chop with knives [num] times",
+    "Perform alternating chop motion for [num] times",
+    "Chop with knives in alternating rhythm [num] times",
+    "Chop with two knives [num] times",
+    "Execute double knife chopping pattern for [num] times",
+    "Chop using both knives simultaneously [num] times",
+    "Alternate chopping with knives for [num] times",
+    "Chop with two knives for [num] times",
+    "Perform coordinated chopping motion for [num] times",
+    "Chop with alternating motions [num] times",
+    "Chop with two knives in tandem for [num] times",
+    "Chop with knives [num] times",
+    "Chop with knives for [num] times",
+    "Chop with interleaved knife motions for [num] times",
+    "Execute dual knife chopping sequence [num] times"
+  ],
+  "unseen": [
+    "Chop with both knives on the board for [num] times",
+    "Chop alternately for [num] times",
+    "Chop with knives in alternating pattern for [num] times",
+    "Perform double knife chopping motion [num] times",
+    "Chop using alternating technique for [num] times",
+    "Chop with two knives for [num] times",
+    "Chop with knives for [num] times",
+    "Execute alternating chop with knives [num] times",
+    "Chop with interleaved knife actions for [num] times",
+    "Perform dual knife chopping sequence [num] times"
+  ]
+}

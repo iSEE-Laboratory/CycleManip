@@ -1,0 +1,3 @@
+创建这个文件只是为了让RoboTwin的统一eval函数能够加载BinaryDP3策略。
+
+实际上还是指向了DP3
