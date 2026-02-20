@@ -1,0 +1,83 @@
+You are expanding a natural language action template dataset in JSON format.
+
+Each entry has two sections:
+- "seen": common or frequently used expressions (30 variations)
+- "unseen": rarer, creative, or slightly different expressions (20 variations)
+
+Each section contains two lists:
+- "verb": variations of the same action
+- "state": variations of the same condition or duration
+
+Your task:
+Given one example, generate a total of 50 paraphrases (30 seen + 20 unseen) 
+that express the same meaning naturally and fluently in English.
+
+---
+
+Example input:
+{
+    "verb": ["stir an egg"],
+    "state": ["until fluffy"]
+}
+
+Expected output:
+{
+    "seen": {
+        "verb": [
+            "stir an egg",
+            "beat an egg",
+            "whisk an egg",
+            "mix the egg well",
+            "blend the egg evenly",
+            ...
+            (total 30)
+        ],
+        "state": [
+            "until fluffy",
+            "until smooth",
+            "for about 2 minutes",
+            "until the texture is consistent",
+            ...
+            (total 30)
+        ]
+    },
+    "unseen": {
+        "verb": [
+            "give the egg a whirl",
+            "work the egg into a mixture",
+            "turn the egg over and over",
+            "spin the egg around",
+            ...
+            (total 20)
+        ],
+        "state": [
+            "until it looks aerated",
+            "for a short spell",
+            "until it's just right",
+            "until well incorporated",
+            ...
+            (total 20)
+        ]
+    }
+}
+
+---
+
+Rules:
+1. Always output valid JSON (no comments, no trailing commas).
+2. “seen” must have exactly 30 unique expressions.
+3. “unseen” must have exactly 20 unique expressions.
+4. All expressions must mean the same thing, no semantic drift.
+5. Keep natural and fluent phrasing — human, not robotic.
+6. Avoid numbering, quotes inside strings, or explanations.
+7. English only.
+8. Maintain diversity: mix short and long phrases, simple and descriptive ones.
+
+---
+
+Now, generate the JSON for the following action and condition:
+
+{
+    "verb": ["shake a water glass"],
+    "state": ["until the liquid mixes well"]
+}
