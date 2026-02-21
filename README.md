@@ -1,13 +1,11 @@
-<h1 align="center">CycleManip</h1>
+## <p align="center">CycleManip: Enabling Cyclic Task Manipulation <br> via Effective Historical Perception and Understanding</p>
 
-<p align="center">
-	<a href="https://isee-laboratory.github.io/CycleManip/">Project Page</a> ·
-	<a href="https://arxiv.org/abs/2512.01022">Paper (arXiv)</a> ·
-	<a href="https://arxiv.org/pdf/2512.01022v1">PDF</a>
-</p>
+### <p align="center">*Yi-Lin Wei\*, Haoran Liao\*, Yuhao Lin, Pengyue Wang, Zhizhao Liang, <br> Guiliang Liu, Wei-Shi Zheng*</p>
 
+#### <p align="center">[[Paper]](https://arxiv.org/abs/2512.01022) &nbsp;&nbsp;&nbsp; [[Project]](https://isee-laboratory.github.io/CycleManip/)</p>
 
-![CycleManip teaser (Figure 1 in the paper)](fig.png)
+![-](fig.png)
+### Official repository of paper "CycleManip: Enabling Cyclic Task Manipulation <br> via Effective Historical Perception and Understanding" 
 
 ## 📌 Overview
 
@@ -18,7 +16,7 @@ The paper proposes a lightweight, end-to-end imitation framework with two core i
 - **Effective historical perception** via a *cost-aware sampling strategy*: sparse sampling for high-overhead observations (e.g., RGB / point clouds) and dense long-horizon sampling for low-overhead observations (e.g., proprioception / end-effector pose differences).
 - **Effective historical understanding** via **multi-task learning**: jointly train the policy to predict manipulation actions and the cycle progress stage.
 
-## INSTALL
+## Install
 ### Environment
 ```bash
 conda create -n cyclemanip python=3.10 -y
@@ -45,8 +43,8 @@ bash collect_data_loop.sh beat_block_hammer_loop loop1-8-all 0
 
 ## TODO
 - [x] Release the data collection code of CycleManip
-- [] Release the training code of CycleManip
-- [] Release the inference and evaluation code of CycleManip
+- [ ] Release the training code of CycleManip
+- [ ] Release the inference and evaluation code of CycleManip
 
 
 ## Citation
