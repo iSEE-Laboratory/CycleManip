@@ -37,7 +37,7 @@ bash script/_download_assets.sh
 ```
 
 ## Usage
-### Collection Data
+### Data Collection 
 ```bash
 bash collect_data_loop.sh beat_block_hammer_loop loop1-8-all 0
 ```

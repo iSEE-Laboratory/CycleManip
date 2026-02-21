@@ -1,6 +1,6 @@
 render_freq: 0
-episode_num: 5
-use_seed: true
+episode_num: 8
+use_seed: false
 save_freq: 30
 embodiment: [ARX-X5, ARX-X5, 0.6]
 # embodiment: [franka-panda,franka-panda,0.6]
@@ -40,8 +40,8 @@ eval_video_log: true
 loop:
   loop_times: 4
   is_random: false
-  is_sequential: false
-  sequence_min: 4
+  is_sequential: true
+  sequence_min: 1
   sequence_max: 8
   random_min: 1
   random_max: 8

@@ -14,4 +14,7 @@ assets/*
 
 policy/weights/*
 
+data/*
+!data/utils/*
+
 

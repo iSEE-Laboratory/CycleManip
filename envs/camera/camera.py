@@ -14,30 +14,52 @@ from .._GLOBAL_CONFIGS import CONFIGS_PATH
 import os
 from sapien.sensor import StereoDepthSensor, StereoDepthSensorConfig
 
-try:
-    import pytorch3d.ops as torch3d_ops
 
-    def fps(points, num_points=1024, use_cuda=True):
+# try to import pytorch3d sampling; if unavailable, fall back to custom torch implementation
+try:
+    from pytorch3d.ops import sample_farthest_points
+    _has_pytorch3d = True
+except ImportError:
+    _has_pytorch3d = False
+
+
+def _fps_torch(points, num_points=1024, use_cuda=True):
+    """Pure torch farthest point sampling used as fallback."""
+    device = torch.device("cuda" if use_cuda and torch.cuda.is_available() else "cpu")
+    pts = torch.from_numpy(points).float().to(device)
+    N = pts.shape[0]
+    if num_points >= N:
+        idx = torch.arange(N, device=device)
+        return pts.cpu().numpy(), idx
+    indices = []
+    dist = torch.full((N,), float("inf"), device=device)
+    first = torch.randint(0, N, (1,), device=device).item()
+    indices.append(first)
+    for _ in range(1, num_points):
+        last = pts[indices[-1]].unsqueeze(0)
+        d = torch.sum((pts - last) ** 2, dim=1)
+        dist = torch.minimum(dist, d)
+        next_idx = torch.argmax(dist).item()
+        indices.append(next_idx)
+    idx = torch.tensor(indices, device=device)
+    sampled = pts[idx]
+    return sampled.cpu().numpy(), idx
+
+
+def fps(points, num_points=1024, use_cuda=True):
+    if _has_pytorch3d:
         K = [num_points]
         if use_cuda:
             points = torch.from_numpy(points).cuda()
-            sampled_points, indices = torch3d_ops.sample_farthest_points(points=points.unsqueeze(0), K=K)
-            sampled_points = sampled_points.squeeze(0)
-            sampled_points = sampled_points.cpu().numpy()
+            sampled_points, indices = sample_farthest_points(points=points.unsqueeze(0), K=K)
+            sampled_points = sampled_points.squeeze(0).cpu().numpy()
         else:
             points = torch.from_numpy(points)
-            sampled_points, indices = torch3d_ops.sample_farthest_points(points=points.unsqueeze(0), K=K)
-            sampled_points = sampled_points.squeeze(0)
-            sampled_points = sampled_points.numpy()
-
+            sampled_points, indices = sample_farthest_points(points=points.unsqueeze(0), K=K)
+            sampled_points = sampled_points.squeeze(0).numpy()
         return sampled_points, indices
-
-except:
-    print("missing pytorch3d")
-
-    def fps(points, num_points=1024, use_cuda=True):
-        print("fps error: missing pytorch3d")
-        exit()
+    else:
+        return _fps_torch(points, num_points=num_points, use_cuda=use_cuda)
 
 
 class Camera:

@@ -152,7 +152,6 @@ def run(TASK_ENV, args):
 
     # =========== Collect Seed ===========
     os.makedirs(args["save_path"], exist_ok=True)
-
     if not args["use_seed"]:
         print("\033[93m" + "[Start Seed and Pre Motion Data Collection]" + "\033[0m")
         args["need_plan"] = True
