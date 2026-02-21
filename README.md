@@ -5,7 +5,7 @@
 #### <p align="center">[[Paper]](https://arxiv.org/abs/2512.01022) &nbsp;&nbsp;&nbsp; [[Project]](https://isee-laboratory.github.io/CycleManip/)</p>
 
 ![-](assets/fig.png)
-### Official repository of paper "CycleManip: Enabling Cyclic Task Manipulation via Effective Historical Perception and Understanding" 
+### [CVPR2026] Official repository of paper "CycleManip: Enabling Cyclic Task Manipulation via Effective Historical Perception and Understanding" 
 
 ## 📌 Overview
 
