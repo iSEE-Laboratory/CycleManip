@@ -1,4 +1,3 @@
-```python
 """Download and extract supplemental assets patch (moved into bootstrap directory).
 
 This script downloads CycleManip supplemental assets and extracts them into
@@ -97,7 +96,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--assets-dir",
-        default=None,
+        default="./assets",
         help="Target assets dir (default: CycleManip repo root /assets)",
     )
     parser.add_argument(
@@ -140,5 +139,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-```

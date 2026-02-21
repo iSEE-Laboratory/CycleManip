@@ -1,0 +1,17 @@
+__pycache__/
+**/checkpoints/
+*.zip
+**/.DS_Store
+
+# eval result
+eval_result/
+
+# Code Generation
+assets/*
+!assets/_download_cyclemanip.py
+!assets/_download.py
+!assets/files
+
+policy/weights/*
+
+

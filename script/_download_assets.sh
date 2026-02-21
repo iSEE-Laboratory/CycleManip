@@ -1,3 +1,5 @@
+python _download_cyclemanip.py
+
 cd assets
 python _download.py
 
@@ -16,3 +18,4 @@ rm -rf objects.zip
 cd ..
 echo "Configuring Path ..."
 python ./script/update_embodiment_config_path.py
+
