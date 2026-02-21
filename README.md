@@ -21,8 +21,8 @@ The paper proposes a lightweight, end-to-end imitation framework with two core i
 ## INSTALL
 ### Environment
 ```bash
-conda create -n RoboTwin python=3.10 -y
-conda activate RoboTwin
+conda create -n cyclemanip python=3.10 -y
+conda activate cyclemanip
 
 git clone git@github.com:iSEE-Laboratory/CycleManip.git
 cd CycleManip
