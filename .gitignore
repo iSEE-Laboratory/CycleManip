@@ -10,7 +10,7 @@ eval_result/
 assets/*
 !assets/_download_cyclemanip.py
 !assets/_download.py
-!assets/files
+!assets/fig.png
 
 policy/weights/*
 

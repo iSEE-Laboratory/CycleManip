@@ -4,8 +4,8 @@
 
 #### <p align="center">[[Paper]](https://arxiv.org/abs/2512.01022) &nbsp;&nbsp;&nbsp; [[Project]](https://isee-laboratory.github.io/CycleManip/)</p>
 
-![-](fig.png)
-### Official repository of paper "CycleManip: Enabling Cyclic Task Manipulation <br> via Effective Historical Perception and Understanding" 
+![-](assets/fig.png)
+### Official repository of paper "CycleManip: Enabling Cyclic Task Manipulation via Effective Historical Perception and Understanding" 
 
 ## 📌 Overview
 
@@ -36,6 +36,7 @@ bash script/_install.sh
 bash script/_download_assets.sh
 ```
 
+## Usage
 ### Collection Data
 ```bash
 bash collect_data_loop.sh beat_block_hammer_loop loop1-8-all 0
